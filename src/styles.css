@@ -1,0 +1,80 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  /* background-color: #97deff; */
+  background-color: white;
+}
+
+header {
+  padding: 3%;
+  background-color: #faedcd;
+  margin-bottom: 6%;
+  box-shadow: black 1px 1px 2px;
+}
+
+header h1 {
+  font-family: "Lobster", cursive;
+  font-size: 3rem;
+}
+
+.input-bar {
+  border-radius: 8px;
+  font-size: 1.5rem;
+  /* background-color: whitesmoke; */
+  background-color: whitesmoke;
+  box-shadow: black 1px 1px 2px;
+  padding: 3px;
+}
+
+.btn {
+  padding: 3px;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  border-radius: 8px;
+  /* background-color: #aa77ff; */
+  background-color: #b4e4ff;
+  box-shadow: black 1px 1px 2px;
+}
+
+.btn:hover {
+  filter: invert();
+}
+
+.item-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 85%;
+  min-width: 100px;
+  border: solid black 2px;
+  margin: auto;
+  min-height: 100px;
+  margin: 3% auto;
+  border-radius: 8px;
+  box-shadow: black 1px 1px 2px;
+  /* background-color: white; */
+  background-color: #f7f1e5;
+}
+
+.item {
+  display: inline-flex;
+  margin: 2%;
+  border: inset black 4px;
+  font-size: 1.5rem;
+  line-height: 2;
+  padding: 13px;
+  border-radius: 26px;
+  background-color: white;
+  box-shadow: black 1px 1px 2px;
+}
+
+footer {
+  padding: 3%;
+  margin-top: 4%;
+}
